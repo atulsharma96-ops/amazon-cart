@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amazon Card</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kalam:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- first nav open -->
+        <div class="row">
+            <div class="col-sm-12 p-0">
+                <nav class="navbar navbar-expand-lg navbar-dark navbar1">
+                    <div class="container-fluid">
+                        <div class="logodiv1 ps-1 pe-1">
+                            <a class="navbar-brand" href="#"><img class="logoimg" src="images/newlogo-removebg-2.png"
+                                    alt=""><span class="text-white spn fw-semibold">.in</span></a>
+                        </div>
+                        <div class="logodiv2 ps-1 pe-1">
+                            <p class="p-0 lp fw-semibold">Delivering to Lucknow 226004</p>
+                            <p class="p-0 fw-semibold up"><i class="fa-solid fa-location-dot"></i>Update location</p>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item dropdown formlist d-flex">
+                                    <a class="active dropdown-toggle my-auto mx-auto" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        All
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="inputf" type="search" placeholder="Search Amazon.in"
+                                    aria-label="Search" />
+                                <button class="sbtn" type="submit"><i
+                                        class="fa-solid fa-magnifying-glass fs-5"></i></button>
+                            </form>
+                            <div class="d-flex fimg ms-2">
+                                <div class="flagimg my-auto ms-1 mt-2">
+                                    <img src="images/flag1.png" height="25px" width="25px" alt="">
+                                </div>
+                                <ul class="navbar-nav mb-2 mb-lg-0 d-flex mt-2 me-3">
+                                    <li class="nav-item dropdown formlist1 d-flex">
+                                        <a class="active dropdown-toggle my-auto ms-1" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                                            EN
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="logodiv3 ps-1 pe-1 ms-2">
+                                <p class="p-0 lp3 fw-semibold">Hello,Sing in</p>
+                                <p class="p-0 fw-semibold up3">Account & Lists</p>
+                            </div>
+                            <div class="logodiv4 ps-1 pe-1 ms-2">
+                                <p class="p-0 lp4 fw-semibold">Returns</p>
+                                <p class="p-0 fw-semibold up4">& Orders</p>
+                            </div>
+                            <div class="logodiv5 ps-1 d-flex ms-2">
+                                <i class="fa-solid fa-cart-shopping text-white my-auto mx-auto"></i>
+                                <p class="text-white fw-bold my-auto mx-auto">cart&nbsp;&nbsp;<span
+                                        class="fw-bold text-danger" id="ctotal">0</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- frist nav close -->
+        <!-- second nav open -->
+        <div class="row">
+            <div class="col-sm-12 p-0">
+                <nav class="navbar navbar-expand-lg navbar2 navbar-dark">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1">
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link active nav2" aria-current="page" href="#"><i
+                                            class="fa-solid fa-bars me-1"></i>All</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link active nav2" aria-current="page" href="#">Fresh</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link active nav2" aria-current="page" href="#">MX Player</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link active nav2" aria-current="page" href="#">Sell</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link active nav2" aria-current="page" href="#">Bestsellers</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link active nav2" aria-current="page" href="#">Mobiles</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link active nav2" aria-current="page" href="#">Todays'Deals</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active dropdown-toggle nav2" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">Prime
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link active nav2" aria-current="page" href="#">Customer Service</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link active nav2" aria-current="page" href="#">Electronics</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link active nav2" aria-current="page" href="#">New Releases</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link active nav2" aria-current="page" href="#">Fashion</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link active nav2" aria-current="page" href="#">Home & Kitchen</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link active nav2" aria-current="page" href="#">Amazon pay</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link active nav2" aria-current="page" href="#">Computers</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link active nav2" aria-current="page" href="#">Books</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- second nav close -->
+        <!-- product section open -->
+        <div class="row">
+            <!-- left section open -->
+            <div class="col-sm-9 left p-0">
+                <div class="card left1 me-2 mt-4 ms-3 mb-3 rounded-0 border-0 shadow p-3">
+                    <div class="d-flex justify-content-between">
+                        <h2 class="my-auto">Shopping Cart</h2>
+                        <p class="my-auto me-1 fw-semibold">Price</p>
+                    </div>
+                    <hr>
+                    <div class="d-flex gap-3 mb-0">
+                        <div class="left1left d-flex" style="width: 25%;">
+                            <img id="limg"
+                                src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTD_81r6iYpcg8G1NxfHCqWJ5doizgCyi--HEdRZYcbKThZWI-0ihaTMOIeKFFGIewQunMSMJSk_bsGBYTwDiC1zpszJYPHCAM7vY1iEO8F6xbmr52V0TC22qc"
+                                height="40%" class="my-auto mx-auto" alt="">
+                        </div>
+                        <div class="left1right" style="width: 73%;">
+                            <p class="fs-5 fw-semibold m-0 p-0"><span id="pname">Nike Men's Downshifter 13 Road Running
+                                    Shoes</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>₹<span id="sinp">2999</span>.00</span>
+                            </p>
+                            <p class="text-danger m-0 p-0" style="font-size: 15px;">Only 4 left in stock</p>
+                            <p class="m-0 p-0 mb-1" style="font-size: 15px;">Eligible for FREE Shippimg</p>
+                            <span id="bestid" class="p-1 ps-3 pe-3"> # 1 Best Seller </span>
+                            <br>
+                            <input type="checkbox" class="mt-1" id="checkbox">
+                            <label for="checkbox">This will be a gift <a class="text-decoration-none" href="">learn
+                                    more</a></label>
+                            <p class="m-0 p-0" style="font-size: 15px;"><b>Size:</b>&nbsp;7 UK (8 US)</p>
+                            <p class="m-0 p-0" style="font-size: 15px;"><b>Colour:</b>&nbsp;Racer Blue/Hyper
+                                Violet/Total Orange/White</p>
+                            <p class="m-0 p-0" style="font-size: 15px;"><b>Style:</b>&nbsp;FD6454-406</p>
+                            <p class="m-0 p-0" style="font-size: 15px;"><b>Country/Region of Origin:</b>&nbsp;Indonesia
+                            </p>
+                            <div class="qty mt-1 p-0"><span class="fw-semibold">QTY:&nbsp;</span>
+                                <select name="" id="qty" onchange="qtyf()">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="m-0 p-0 mb-2">
+                    <div class="leftlower d-flex align-item-center justify-content-end ">
+                        <p class="fw-semibold fs-4 me-2">
+                            Subtotal&nbsp;(<span id="pn">1</span>&nbsp;items):&nbsp;₹<span
+                                id="tpc">2999</span><span>.00</span></p>
+                    </div>
+                </div>
+                <div class="card left2 me-2 mt-2 ms-3 mb-3 rounded-0 border-0 shadow"></div>
+                <p class="ms-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quam nam quas
+                    veritatis eos quasi, laudantium, earum sit ut commodi cum similique. Veritatis laudantium id
+                    eaque
+                    nobis obcaecati blanditiis aspernatur doloremque labore.</p>
+            </div>
+            <!-- left section close -->
+            <!-- right section open -->
+            <div class="col-sm-3 right">
+                <div class="card right1 mt-4 mb-3 me-4 rounded-0 border-0 shadow p-3 pt-4">
+                    <p class="text-success fw-semibold m-0 p-0"><i
+                            class="fa-solid fa-circle-check fa-beat me-2"></i>Your order is eligeble for FREE Delivery.
+                    </p>
+                    <p class="m-0 p-0 ms-3 ps-3" style="font-size: 13px; color: #626161;">Select this option at
+                        checkout.<a class="text-decoration-none ms-1" href="">Details</a></p>
+                    <p class="fw-semibold fs-5 m-0 p-0 mt-3 ms-2">
+                        Subtotal&nbsp;(<span id="pspc">1</span>&nbsp;items):&nbsp;₹<span
+                            id="ptpc">2999</span><span>.00</span>
+                    </p>
+                    <p class="p-0 m-0 ms-3"><input type="checkbox" name="" id="checkout">&nbsp;<label
+                            for="checkout">This order contains
+                            a gift</label></p>
+                    <button type="btn" class="btn bg-warning mt-3 fw-semibold">Proceed to Buy</button>
+                    <div class="payment mt-3 p-0">
+                        <ul class="navbar-nav mb-2 mb-lg-0 d-flex">
+                            <li class="nav-item dropdown d-flex">
+                                <a class="active dropdown-toggle mx-auto text-decoration-none text-dark fw-semibold p-3 fs-5 my-auto"
+                                    href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    EMI available&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </a>
+                                <ul class="dropdown-menu ">
+                                    <li><a class="dropdown-item" href="#"><img
+                                                src="https://www.sosfoundation.org.in/Images/UPI_logo_PNG.jpg"
+                                                height="30px" width="30px" style="object-fit: cover;" alt="">
+                                            EMI through UPI</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#"><img
+                                                src="https://media.istockphoto.com/id/531236924/photo/group-of-credit-cards-on-computer-keyboard.jpg?s=612x612&w=0&k=20&c=5iAuEH7ipVgVDI9TkgzTC8Xx0roMhvDlT79UzRiSzcE="
+                                                height="30px" width="30px" style="object-fit: cover;" alt="">
+                                            EMI through Credit Card</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="card right2 mt-2 mb-4 me-4 rounded-0 border-0 shadow p-3" onclick="showProduct(1)"
+                    role="button">
+                    <div class="m-0 p-0">
+                        <p class="fs- fw-bold p-0 m-0 fs-5" style="line-height: 22px;">Customer who shoped for Nike mens
+                            Nike Revolution 7 Running Shoes also shoped for:</p>
+                    </div>
+                    <div class="d-flex m-0 p-0 gap-2 mt-2">
+                        <div class="d-flex pt-4"> <img class="my-auto mx-auto" src="images/addidas-removebg-preview.png"
+                                height="80px" width="150px" alt="" style="object-fit: cover;"></div>
+                        <div class="pt-4">
+                            <p class="m-0 p-0 my-auto text-success mt-3" style="line-height: 15px;">Adidas Men's
+                                AlphaEdge
+                                Trainers</p>
+                            <p class="mt-2 text-success p-0 m-0" style="font-size: 15px;"><i
+                                    class="fa-solid fa-star text-warning"></i><i
+                                    class="fa-solid fa-star text-warning"></i><i
+                                    class="fa-solid fa-star text-warning"></i><i
+                                    class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke text-warning"></i> 500+
+                            </p>
+                            <p class="text-danger fw-semibold m-0 p-0">₹3399.00 - ₹3699.00</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- right section close -->
+        </div>
+        <!-- product section close -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,275 @@
+body {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+/* frist navbar open */
+.logoimg {
+    height: 65%;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+    color: white;
+    margin-top: 1.5vh;
+    margin-left: 1px;
+}
+
+.navbar1 {
+    background-color: rgb(2, 28, 33);
+    border: 1px solid transparent;
+    height: 60px;
+    width: 100%;
+}
+
+.spn {
+    font-size: 14px;
+    position: absolute;
+    margin-top: 1.8vh;
+}
+
+.logodiv1 {
+    border: 1px solid transparent;
+    height: 50px;
+    width: auto;
+}
+
+.logodiv1:hover {
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+.logodiv2 {
+    width: 200px;
+    border: 1px solid transparent;
+    height: auto;
+    height: 50px;
+    margin-left: 5px;
+}
+
+.logodiv2:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.lp {
+    font-size: 12px;
+    color: #cdcccc;
+    position: absolute;
+    margin-left: 1.45vw;
+    margin-top: 1.3vh;
+}
+
+.up {
+    color: white;
+    margin-top: 2.6vh;
+}
+
+.inputf {
+    height: 40px;
+    width: 650px;
+    border: none;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.sbtn {
+    height: 40px;
+    width: 50px;
+    border: none;
+    border-radius: 0px 3px 3px 0px;
+    background-color: rgb(238, 199, 4);
+}
+
+.flagimg {
+    width: 80px;
+    height: 50px;
+}
+
+.flagimg img {
+    object-fit: cover;
+}
+
+.fimg {
+    border: 1px solid transparent;
+    height: 50px;
+    width: 80px;
+}
+
+.fimg:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.logodiv3 {
+    width: 125px;
+    border: 1px solid transparent;
+    height: auto;
+    height: 50px;
+}
+
+.lp3 {
+    font-size: 12px;
+    color: #cdcccc;
+    position: absolute;
+    margin-top: 1.3vh;
+}
+
+.up3 {
+    color: white;
+    margin-top: 2.7vh;
+}
+
+.logodiv3:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.logodiv4 {
+    width: 75px;
+    border: 1px solid transparent;
+    height: 50px;
+}
+
+.lp4 {
+    font-size: 12px;
+    color: #cdcccc;
+    position: absolute;
+    margin-top: 1.3vh;
+}
+
+.up4 {
+    color: white;
+    margin-top: 2.7vh;
+}
+
+.logodiv4:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.logodiv5 {
+    height: 50px;
+    width: 110px;
+    border: 1px solid transparent;
+
+}
+
+.logodiv5 i {
+    font-size: 30px;
+}
+
+.logodiv5:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.formlist {
+    background-color: #ccc;
+    height: 40px;
+    width: 50px;
+    border-radius: 3px 0px 0px 3px;
+    margin-left: 15px;
+    border: none;
+}
+
+.formlist a {
+    color: black;
+    text-decoration: none;
+}
+
+.formlist1 {
+    background-color: rgb(2, 28, 33);
+    height: 25px;
+    width: 40px;
+    margin-left: 15px;
+    border: none;
+    margin: 0px auto;
+}
+
+.formlist1 a {
+    text-decoration: none;
+    color: black;
+}
+
+/* first nav close */
+
+/* 2ns nav bar open */
+.navbar2 {
+    background-color: rgb(3, 47, 58);
+    height: 42px;
+}
+
+.nav2 {
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav2:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+/* 2nd nav bar close */
+/* slider open */
+.left {
+    height: 86vh;
+    background-color: rgb(230, 232, 234);
+}
+
+.right {
+    background-color: rgb(230, 232, 234);
+    height: 86vh;
+}
+
+.left1 {
+    height: 70%;
+    width: 98%;
+    background-color: #fff;
+}
+
+.right1 {
+    height: 50%;
+    width: 98%;
+    background-color: #fff;
+}
+
+.left2 {
+    height: 12%;
+    width: 98%;
+    background-color: #fff;
+}
+
+.right2 {
+    height: 40%;
+    width: 98%;
+    background-color: #fff;
+}
+
+#bestid {
+    height: 20px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.qty {
+    border: 1px solid transparent;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.qty select {
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.payment {
+    border: 1px solid gray;
+}
+
+/* slider close */
