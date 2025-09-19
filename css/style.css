@@ -224,7 +224,7 @@ body {
 }
 
 .left1 {
-    height: 70%;
+    height: 71%;
     width: 98%;
     background-color: #fff;
 }
@@ -272,4 +272,57 @@ body {
     border: 1px solid gray;
 }
 
+#imgdiv1 {
+    display: flex;
+}
+
+#dp {
+    font-size: 15px;
+}
+
+#pname {
+    margin-right: 18vw;
+}
+
 /* slider close */
+
+
+@media (max-width:576px) {
+
+
+    #imgdiv1 {
+        /* background-color: red; */
+        display: inline;
+        width: 80vw;
+    }
+
+    #limg {
+        height: 13vh;
+
+    }
+
+    .left1right p {
+        line-height: 15px;
+    }
+
+    #namep span {
+        font-size: 15px;
+    }
+
+    #dp {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .left2 {
+        /* visibility: hidden; */
+        width: 91vw;
+    }
+
+    .left1 {
+        height: 70vh;
+        width: 91vw;
+    }
+
+
+}
